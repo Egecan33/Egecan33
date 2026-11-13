@@ -31,6 +31,18 @@ My toolkit includes **Python, FastAPI, Docker, Airflow, PostgreSQL and Gurobi**.
 | Q2 2027 | FTR and congestion analytics, a capacity auction model, live market panels in lessons |
 | H2 2027 | Interconnection-queue and data-center tracker, forecast baselines, a podcast prediction scoreboard, a cited Q&A agent and MCP server |
 
+## Forge: local deck builders for card games
+
+Three free, open-source deck builders that share one design: a pure TypeScript engine, SQLite, card images on disk and a Next.js interface on localhost. No account and no AI at runtime; every score is computed from card text, rules and synced data, and is shown with its reasons. Each ships as a portable download for macOS and Windows.
+
+| Tool | Game | What it does | Download |
+| --- | --- | --- | --- |
+| [Commander Forge](https://github.com/Egecan33/mtg-commander-deck-builder) | Magic: The Gathering (Commander) | Bracket-aware auto-build, 0–100 card scores per commander, deck rating, improve suggestions, printable proxies, a deck finder for your collection. | [![Latest release](https://img.shields.io/github/v/release/Egecan33/mtg-commander-deck-builder?style=flat-square&color=0E5C8A)](https://github.com/Egecan33/mtg-commander-deck-builder/releases/latest) |
+| [Riftbound Forge](https://github.com/Egecan33/riftbound-deck-builder) | Riftbound | Auto-builds legal decks, scores every card, rates a list, finds synergies and win conditions, gives matchup and side-deck lines for 1v1, 2v2 and FFA. | [![Latest release](https://img.shields.io/github/v/release/Egecan33/riftbound-deck-builder?style=flat-square&color=0E5C8A)](https://github.com/Egecan33/riftbound-deck-builder/releases/latest) |
+| [Snap Forge](https://github.com/Egecan33/marvel-snap-deck-builder) | Marvel Snap | Brews off-meta decks that still clear a power floor, with a deck rating, a separate novelty score against synced meta lists, energy curve and draw odds, and swap suggestions. | [![Latest release](https://img.shields.io/github/v/release/Egecan33/marvel-snap-deck-builder?style=flat-square&color=0E5C8A)](https://github.com/Egecan33/marvel-snap-deck-builder/releases/latest) |
+
+These are unofficial fan projects built with AI coding agents in staged, test-gated workflows. Ratings are heuristic construction checks, not win-rate predictions; each repository states what is measured and what is not. Card data and images are downloaded to the user's machine and are not part of the repositories.
+
 ## Selected technical projects
 
 | Project | What to explore |
